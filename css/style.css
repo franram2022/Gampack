@@ -1,6 +1,76 @@
 
+body{
+    background: rgb(210,208,255);
+background: linear-gradient(90deg, rgba(210,208,255,0.8435749299719888) 4%, rgba(229,232,252,0.9051995798319328) 12%, rgba(250,250,255,1) 100%);
+}
 /**********HEADER*********/
 header nav div a img{
     width: 190px;
     height: auto;
+}
+.firstMain{
+    text-align: center;
+    padding: 3%;
+}
+.container{
+    text-align: center;
+}
+.sectionOne {
+    text-align: center;
+    padding: 3%;
+    transition: all 4s;
+}
+.sectionOne div p{
+    padding: 3%;
+}
+.sectionTwo{
+    grid-column: 3;
+
+}
+.container h2{
+    padding: 5%;
+}
+/********NOSOTROS*********/
+.mainNosotros{
+    text-align: center;
+    padding: 5%;
+}
+.mainNosotros p{
+    padding: 3%;
+}
+.sectionNosotros h2{
+    text-align: center;
+    padding: 5%;
+}
+/********ENVIOS********/
+.container-fluid{
+    text-align: center;
+}
+.container-fluid h2{
+    padding: 5%;
+}
+.container-fluid img{
+    padding: 3%;
+}
+h4{
+    padding: 5%;
+    text-align: center;
+}
+.divEnvios{
+    display: flex;
+    justify-content: center;
+}
+.divEnvios p{
+    padding: 5%;
+    text-align: center;
+    align-self: center;
+}
+.divEnvios img{
+    padding: 1.5%;
+    width: 40%;
+    height: auto;
+}
+.divEnviostwo{
+    padding: 5%;
+    text-align: center;
 }
