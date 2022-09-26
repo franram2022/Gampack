@@ -97,6 +97,11 @@ header nav div a img{
     text-align: center;
     padding: 5%;
 }
+@media (max-width: 990px){
+    .container-fluid{
+        box-sizing: initial;
+    }
+}
 /********ENVIOS********/
 .container-fluid{
     text-align: center;
