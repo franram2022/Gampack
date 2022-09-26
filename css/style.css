@@ -244,6 +244,9 @@ button {
 }
 .mainGrid .divGrid{
     display: inline-block;
+    height: 10%;
+    align-self: center;
+    padding: 5%;
 }
 .mainGrid .divGrid h2{
     align-items: center;
