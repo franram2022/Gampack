@@ -1,4 +1,4 @@
-* { 
+* { margin: 0;
     border: 1px solid red;
 }
 
@@ -237,13 +237,15 @@ button {
    
    
 .mainGrid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     padding: 5%;
     margin: 5% 0% 10% 0%;
+    justify-content: center;
 }
 .mainGrid .divGrid{
-    display: grid;
+    display: inline-block;
+}
+.mainGrid .divGrid h2{
     align-items: center;
     justify-items: center;
 }
@@ -253,9 +255,14 @@ button {
     padding: 25%    ;
 }
 .grid{
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr ;
     padding: 5%;
+}
+@media (max-width: 990px){
+    .grid{
+        display: inline-block;
+    }
 }
 .grid div ul li img{
     width: 3%;
