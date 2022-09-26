@@ -1,4 +1,4 @@
-* {border: 1px solid red;} 
+* {border: 1px solid red;}
 body{
     background: rgb(210,208,255);
 background: linear-gradient(90deg, rgba(210,208,255,0.8435749299719888) 4%, rgba(229,232,252,0.9051995798319328) 12%, rgba(250,250,255,1) 100%);
@@ -58,14 +58,17 @@ header nav div a img{
     display: flex;
     justify-content: space-around;
     padding: 10%;
+    align-items: center;
 }
-.foot .iconFoot a img{
-    width: 3%;
-    height: auto;
-}
+
 .foot .iconFoot{
     display: inline;
     margin: 0 25px;
+    width: 15%;
+}
+.foot .iconFoot a img{
+    width: 20%;
+    
 }
 .foot .logoFoot img{
     width: 100%;
@@ -79,8 +82,9 @@ header nav div a img{
 .foot .copy{
     display: inline;
     text-align: center;
-
+    margin: 1% 10%;
 }
+
 /********NOSOTROS*********/
 .mainNosotros{
     text-align: center;
