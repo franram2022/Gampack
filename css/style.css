@@ -46,16 +46,31 @@ header nav div a img{
 .sectionTwo{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 8px;
     justify-items: center;
     padding: 5%;
     cursor:pointer
 }
-
+@media (max-width: 990px){
+    .sectionTwo{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+        justify-items: center;
+    }
+}
 .sectionTwo div img{
     width: 100%;
     height: auto;
     transition: all 500ms ease-out;
     border-radius: 6px;
+}
+@media(max-width: 990px){
+    .sectionTwo div img{
+        width: 80%;
+        height: auto;
+    }
 }
 .sectionTwo div a img:hover{
     transform: scale(1.3);
@@ -190,14 +205,16 @@ h4{
 }
 @media(max-width: 990px){
     .sectionCat{
-        display: block;
-        justify-content: center;
+        display: grid;
+        grid-template-columns:1fr;
+        justify-items:center;
+
     }
-    .sectionCat div img{
+   /* .sectionCat div img{
         text-align: center;
         justify-content: center;
         justify-items: center;
-    }
+    }*/
 }
 .sectionCat div a img:hover{
     transform: scale(1.3);
