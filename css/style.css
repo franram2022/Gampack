@@ -26,10 +26,17 @@ header nav div a img{
 .sectionOne {
     text-align: center;
     padding: 3%;
-    transition: all 4s;
+}
+.sectionOne h2{
+    margin-bottom: 10%;
+}
+.sectionOne div{
+    
 }
 .sectionOne div p{
-    padding: 3%;
+    padding: 5%;
+    background-color: white;
+    border-radius: 6px;
 }
 
 .container h2{
@@ -51,6 +58,7 @@ header nav div a img{
     width: 100%;
     height: auto;
     transition: all 500ms ease-out;
+    border-radius: 6px;
 }
 .sectionTwo div a img:hover{
     transform: scale(1.3);
@@ -181,6 +189,7 @@ h4{
     width: 100%;
     height: auto;
     transition: all 500ms ease-out;
+    border-radius: 6px;
 }
 .sectionCat div a img:hover{
     transform: scale(1.3);
