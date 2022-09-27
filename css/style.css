@@ -30,10 +30,14 @@ header nav div a img{
 .sectionOne h2{
     margin-bottom: 10%;
 }
+.sectionOne div{
+    text-align: center;
+}
 .sectionOne div p{
     padding: 5%;
     background-color: white;
     border-radius: 6px;
+    width: 50%;
 }
 
 .container h2{
