@@ -161,32 +161,57 @@ header nav div a img{
 .mainNosotros{
     text-align: center;
     padding: 5%;
+    justify-content: center;
+}
+.mainNosotros h2{
+    display: inline-block;
+    background-color: #21A705;
+    color: white;
+    border-radius: 10px;
+    padding: 1%;
 }
 .mainNosotros p{
     padding: 3%;
 }
-.sectionNosotros h2{
+.sectionNTitulo{
     text-align: center;
-    padding: 5%;
 }
-@media (max-width: 990px){
-    .container-fluid{
-        box-sizing: initial;
-    }
+.sectionNTitulo h2{
+    text-align: center;
+    padding: 1%;
+    background-color: #21A705;
+    width: 30%;
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 5%;
+}
+.sectionNosotros{
+    @media (max-width: 990px){
+        .container-fluid{
+            box-sizing: initial;
+        }
+}
 }
 /********ENVIOS********/
-.container-fluid{
+.container-envios{
     text-align: center;
-    width: 90%;
+    justify-content: center;
 }
-.container-fluid h2{
-    padding: 5%;
+.container-envios h2{
+    background-color: #21A705;
+    color: white;
+    width: 20%;
+    display: inline-block;
+    margin: 5%;
+    border-radius: 0%
 }
-.container-fluid img{
-    padding: 3%;
+.container-envios div img{
+    border-radius: 10px;
+    margin: 5%;
 }
 @media (max-width: 990px){
-    .container-fluid img {
+    .container-envios img {
         display: flex;
         width: 90%;
     }
@@ -211,9 +236,10 @@ h4{
     align-self: center;
 }
 .divEnvios img{
-    padding: 1.5%;
     width: 40%;
     height: auto;
+    border-radius: 10%;
+    margin: 1.5%;
 }
 .divEnviostwo{
     padding: 5%;
@@ -221,12 +247,17 @@ h4{
 }
 /********CATALOGO********/
 .divCat{
-    display: inline;
     text-align: center;
     padding: 2%;
+    justify-content: center;
 }
 .divCat h2{
-    padding: 5%;
+    padding: 1%;
+    color: white;
+    background-color: #21A705;
+    width: 30%;
+    display: inline-block;
+    border-radius: 10px;
 }
 .sectionCat{
     display: grid;
@@ -234,11 +265,11 @@ h4{
     grid-template-rows: 1fr;
     padding: 5%;
     justify-items: center;
+    gap: 50px;
 
 }
 .sectionCat div{
     display: grid;
-    gap: 50px;
     padding: 2%;
 }
 .sectionCat div img{
