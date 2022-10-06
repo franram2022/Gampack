@@ -132,13 +132,13 @@ header nav div a img{
 }
 
 .foot .iconFoot{
-    display: inline;
+    display: flex;
     /*margin: 0 25px;*/
     width: 20%;
 }
 .foot .iconFoot a svg{
     width: 30%;
-    padding: 5%;
+    text-align: center;
     
 }
 .foot .logoFoot img{
@@ -198,10 +198,11 @@ header nav div a img{
     text-align: center;
     justify-content: center;
 }
-.container-envios h2{
+.container-envios h1{
     background-color: #21A705;
     color: white;
-    width: 20%;
+    padding: 1%;
+    width: auto;
     display: inline-block;
     margin: 5%;
     border-radius: 0%
@@ -216,13 +217,18 @@ header nav div a img{
         width: 90%;
     }
 }
-h4{
-    padding: 5%;
-    text-align: center;
+.container-envios h2{
+    padding: 1%;
+    background-color: #21A705;
+    width: auto;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
 }
 .divEnvios{
     display: flex;
     justify-content: center;
+    margin: 5% 0;
 }
 @media (max-width: 990px){
     .divEnvios{
@@ -378,15 +384,36 @@ button {
         justify-content: center;
     }
 }*/
-
-.mainGrid .divGrid h2{
+.box-contacto{
+    background-color: #21A705;
+    border-radius: 10px;
+}
+.mainGrid .divGrid h1{
     align-items: center;
     justify-items: center;
+    background-color: #21A705;
+    width: 50%;
+    padding: 3%;
+    border-radius: 10px;
+    color: white;
+}
+form div{
+    text-align: center;
+}
+form div input{
+    width: 98%;
 }
 .titulo2{
-    display: inline;
     text-align: center;
-    padding: 25%    ;
+}
+.titulo2 h2{
+    background-color: #21A705;
+    width: auto;
+    color: white;
+    display: inline-block;
+    padding: 1%;
+    border-radius: 10px ;
+    margin: 5% 0;
 }
 .grid{
     display: flex;
