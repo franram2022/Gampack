@@ -75,7 +75,7 @@ header nav div a img{
 .divNov h2{
     display: inline-block;
     background-color: #21A705;
-    width: 30%;
+    width: auto;
     padding: 1%;
     border-radius: 10px;
     color: white;
@@ -169,6 +169,7 @@ header nav div a img{
     color: white;
     border-radius: 10px;
     padding: 1%;
+    width: auto;
 }
 .mainNosotros p{
     padding: 3%;
@@ -180,7 +181,7 @@ header nav div a img{
     text-align: center;
     padding: 1%;
     background-color: #21A705;
-    width: 30%;
+    width: auto;
     display: inline-block;
     border-radius: 10px;
     color: white;
@@ -191,7 +192,7 @@ header nav div a img{
         .container-fluid{
             box-sizing: initial;
         }
-}
+    }
 }
 /********ENVIOS********/
 .container-envios{
