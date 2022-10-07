@@ -1,0 +1,446 @@
+/*Variables*/
+header nav div a img {
+  width: 190px;
+  height: auto;
+}
+@media (max-width: 990px) {
+  header nav div a img .firstMain img {
+    width: 90%;
+  }
+}
+
+/*INDEX*/
+.firstMain {
+  text-align: center;
+  padding: 3%;
+}
+.firstMain img {
+  border-radius: 10px;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+}
+.container p {
+  width: 90%;
+  text-align: center;
+  display: inline-block;
+  font-size: large;
+}
+.container h2 {
+  width: 50%;
+  display: inline-block;
+  background-color: #21A705;
+  border-radius: 10px;
+  color: #F5F5F5;
+  padding: 1%;
+  margin: 5% 0;
+  font-size: x-large;
+  /*Insertar un border radius, pero se rompe.*/
+}
+
+.sectionOne {
+  text-align: center;
+  padding: 3% 0;
+}
+.sectionOne h2 {
+  margin-bottom: 10%;
+  width: 45%;
+  background-color: #0011A8;
+  display: inline-block;
+  color: #F5F5F5;
+  padding: 1%;
+}
+.sectionOne div {
+  text-align: center;
+}
+.sectionOne div p {
+  padding: 5%;
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  width: 30%;
+  display: inline-block;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+.divNov {
+  text-align: center;
+  padding: 5%;
+  justify-content: center;
+}
+.divNov h2 {
+  display: inline-block;
+  background-color: #21A705;
+  width: auto;
+  padding: 1%;
+  border-radius: 10px;
+  color: white;
+}
+
+.sectionTwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 8px;
+  justify-items: center;
+  padding: 5%;
+  cursor: pointer;
+}
+.sectionTwo div {
+  width: 65%;
+  height: auto;
+  text-align: center;
+}
+.sectionTwo div img {
+  width: 100%;
+  height: auto;
+  transition: all 500ms ease-out;
+  border-radius: 10px;
+}
+.sectionTwo div img:hover {
+  transform: scale(1.3);
+}
+.sectionTwo div a {
+  text-decoration: none;
+}
+
+@media (max-width: 990px) {
+  .sectionTwo {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+.foot {
+  background-color: #0011A8;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10%;
+  align-items: center;
+}
+.foot .iconFoot {
+  display: flex;
+  /*margin: 0 25px;*/
+  width: 20%;
+}
+.foot .iconFoot a svg {
+  width: 30%;
+  text-align: center;
+}
+.foot .logoFoot {
+  width: 15%;
+  height: auto;
+  display: inline;
+}
+.foot .logoFoot img {
+  width: 100%;
+  height: auto;
+}
+.foot .copy {
+  display: inline;
+  text-align: center;
+  margin: 1% 10%;
+  color: white;
+}
+
+.mainNosotros {
+  text-align: center;
+  padding: 5%;
+  justify-content: center;
+}
+.mainNosotros h2 {
+  display: inline-block;
+  background-color: #21A705;
+  color: #F5F5F5;
+  border-radius: 10px;
+  padding: 1%;
+  width: auto;
+}
+.mainNosotros p {
+  padding: 3%;
+}
+
+.sectioNTitulo {
+  text-align: center;
+}
+.sectioNTitulo h2 {
+  text-align: center;
+  padding: 1%;
+  background-color: #21A705;
+  width: auto;
+  display: inline-block;
+  border-radius: 10px;
+  color: #F5F5F5;
+  margin-bottom: 5%;
+}
+
+@media (max-width: 990px) {
+  .sectionNosotros .container-fluid {
+    box-sizing: initial;
+  }
+}
+
+.container-envios {
+  text-align: center;
+  justify-content: center;
+}
+.container-envios h1 {
+  background-color: #21A705;
+  color: white;
+  padding: 1%;
+  width: auto;
+  display: inline-block;
+  margin: 5%;
+  border-radius: 0%;
+}
+.container-envios div img {
+  border-radius: 10px;
+  margin: 5%;
+}
+.container-envios h2 {
+  padding: 1%;
+  background-color: #21A705;
+  width: auto;
+  color: white;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+@media (max-width: 990px) {
+  .container-envios img {
+    display: flex;
+    width: 90%;
+  }
+}
+.divEnvios {
+  display: flex;
+  justify-content: center;
+  margin: 5% 0;
+}
+.divEnvios p {
+  padding: 5%;
+  text-align: center;
+  align-self: center;
+}
+.divEnvios img {
+  width: 40%;
+  height: auto;
+  border-radius: 10%;
+  margin: 1.5%;
+}
+
+@media (max-width: 990px) {
+  .divEnvios {
+    display: inline-block;
+    text-align: center;
+  }
+}
+.divEnviosTwo {
+  padding: 5%;
+  text-align: center;
+}
+
+.divCat {
+  text-align: center;
+  padding: 2%;
+  justify-content: center;
+}
+.divCat h2 {
+  padding: 1%;
+  color: white;
+  background-color: #21A705;
+  width: 30%;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.sectionCat {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding: 5%;
+  justify-items: center;
+  gap: 50px;
+}
+.sectionCat div {
+  display: grid;
+  padding: 2%;
+}
+.sectionCat img {
+  width: 100%;
+  height: auto;
+  transition: all 500ms ease-out;
+  border-radius: 6px;
+}
+.sectionCat img:hover {
+  transform: scale(1.3);
+}
+.sectionCat div {
+  width: 45%;
+  height: auto;
+}
+
+@media (max-width: 990px) {
+  .sectionCat {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+/*boton*/
+/* From uiverse.io by @adamgiebl */
+button {
+  font-family: inherit;
+  font-size: 20px;
+  background: royalblue;
+  color: white;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+button span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+button svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover .svg-wrapper {
+  -webkit-animation: fly-1 0.6s ease-in-out infinite alternate;
+          animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+button:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+button:hover span {
+  transform: translateX(5em);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+@-webkit-keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+.mainGrid {
+  display: flex;
+  padding: 5%;
+  margin: 5% 0% 10% 0%;
+  justify-content: center;
+}
+.mainGrid .divGrid {
+  display: inline-block;
+  height: 10%;
+  align-self: center;
+  padding: 5%;
+}
+.mainGrid .divGrid h1 {
+  align-items: center;
+  justify-items: center;
+  background-color: #21A705;
+  width: 50%;
+  padding: 3%;
+  border-radius: 10px;
+  color: #F5F5F5;
+}
+
+@media (max-width: 990px) {
+  .mainGrid {
+    display: inline-block;
+    text-align: center;
+  }
+}
+.box-contacto {
+  background-color: #21A705;
+  border-radius: 10px;
+}
+
+.form div {
+  text-align: center;
+}
+.form div input {
+  width: 98%;
+}
+
+.titulo2 {
+  text-align: center;
+}
+.titulo2 h2 {
+  background-color: #21A705;
+  width: auto;
+  color: #F5F5F5;
+  display: inline-block;
+  padding: 1%;
+  border-radius: 10px;
+  margin: 5% 0;
+}
+
+.grid {
+  display: flex;
+  padding: 5%;
+  justify-content: center;
+}
+.grid div {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
+}
+.grid div ul {
+  list-style: none;
+}
+.grid div ul li p {
+  display: inline-block;
+}
+.grid div ul li img {
+  width: 3%;
+  height: auto;
+}
+
+@media (max-width: 990px) {
+  .grid {
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-width: 990px) {
+  .grid div {
+    display: inline-block;
+  }
+}
+@media (max-width: 990px) {
+  .map {
+    width: auto;
+  }
+}/*# sourceMappingURL=main.css.map */

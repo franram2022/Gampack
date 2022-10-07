@@ -1,0 +1,99 @@
+/*INDEX*/
+.firstMain{
+    text-align: center;
+    padding: 3%;
+    img{
+        border-radius: 10px;
+    }
+}
+.container{
+    text-align: center;
+    justify-content: center;
+    p{
+        width: 90%;
+        text-align: center;
+        display: inline-block;
+        font-size: large;
+    }
+    h2{
+        width: 50%;
+        display: inline-block;
+        background-color: $boxClor;
+        border-radius: 10px;
+        color: $fontColor;
+        padding: 1%;
+        margin: 5% 0;
+        font-size: x-large;
+        /*Insertar un border radius, pero se rompe.*/
+    }
+}
+.sectionOne{
+    text-align: center;
+    padding: 3% 0;
+    h2{
+        margin-bottom: 10%;
+        width: 45%;
+        background-color: #0011A8;
+        display: inline-block;
+        color: $fontColor;
+        padding: 1%;
+    }
+    div{
+        text-align: center;
+        p{
+            padding: 5%;
+            background-color: #F5F5F5;
+            border-radius: 10px;
+            width: 30%;
+            display: inline-block;
+            justify-content: center;
+            margin-bottom: 10%;
+        }
+    }
+}
+.divNov{
+    text-align: center;
+    padding: 5%;
+    justify-content: center;
+    h2 {
+        display: inline-block;
+        background-color: $boxClor;
+        width: auto;
+        padding: 1%;
+        border-radius: 10px;
+        color: white;
+    }
+}
+.sectionTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 8px;
+    justify-items: center;
+    padding: 5%;
+    cursor:pointer;
+    div{
+        width: 65%;
+        height: auto;
+        text-align: center;
+        img{
+            width: 100%;
+            height: auto;
+            transition: all 500ms ease-out;
+            border-radius: 10px;
+            &:hover{
+                transform: scale(1.3);
+            }
+        }
+        a{
+            text-decoration:none;
+        }
+    }
+}
+@media (max-width: $responsive){
+    .sectionTwo{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}

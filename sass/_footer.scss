@@ -1,0 +1,34 @@
+.foot{
+    background-color: #0011A8;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10%;
+    align-items: center;
+    .iconFoot{
+        display: flex;
+        /*margin: 0 25px;*/
+        width: 20%;
+        a{
+            svg{
+                width: 30%;
+                text-align: center;
+            }
+        }
+    }
+    .logoFoot{
+        width: 15%;
+        height: auto;
+        display: inline;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    .copy{
+        display: inline;
+        text-align: center;
+        margin: 1% 10%;
+        color: white;
+    }
+}

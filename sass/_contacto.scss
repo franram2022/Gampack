@@ -1,0 +1,144 @@
+/*boton*/
+/* From uiverse.io by @adamgiebl */
+button {
+    font-family: inherit;
+    font-size: 20px;
+    background: royalblue;
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+   }
+   
+   button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+   }
+   
+   button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+   }
+   
+   button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+   }
+   
+   button:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+   }
+   
+   button:hover span {
+    transform: translateX(5em);
+   }
+   
+   button:active {
+    transform: scale(0.95);
+   }
+   
+   @keyframes fly-1 {
+    from {
+     transform: translateY(0.1em);
+    }
+   
+    to {
+     transform: translateY(-0.1em);
+    }
+   }
+   .mainGrid{
+        display: flex;
+        padding: 5%;
+        margin: 5% 0% 10% 0%;
+        justify-content: center;
+        .divGrid{
+            display: inline-block;
+            height: 10%;
+            align-self: center;
+            padding: 5%;
+            h1{
+                align-items: center;
+                justify-items: center;
+                background-color: $boxClor;
+                width: 50%;
+                padding: 3%;
+                border-radius: 10px;
+                color: $fontColor;
+            }
+        }
+   }
+   @media(max-width: $responsive){
+        .mainGrid{
+        display: inline-block;
+        text-align: center;
+    }
+}
+.box-contacto{
+    background-color: $boxClor;
+    border-radius: 10px;
+}
+.form{
+    div{
+        text-align: center;
+        input{
+            width: 98%;
+        }
+    }
+}
+.titulo2{
+    text-align: center;
+    h2{
+        background-color: $boxClor;
+        width: auto;
+        color: $fontColor;
+        display: inline-block;
+        padding: 1%;
+        border-radius: 10px ;
+        margin: 5% 0;
+    }
+}
+.grid{
+    display: flex;
+    padding: 5%;
+    justify-content: center;
+    div{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        gap: 20px;
+        ul{
+            list-style: none;
+            li{
+                p{
+                    display: inline-block;
+                }
+                img{
+                    width: 3%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+@media (max-width: $responsive){
+    .grid{
+        display: block;
+        text-align: center;
+    }
+}
+@media(max-width: $responsive){
+    .grid div{
+        display: inline-block;
+       }
+}
+@media (max-width: $responsive){
+    .map{
+        width: auto;
+    }
+}

@@ -1,0 +1,59 @@
+.container-envios{
+    text-align: center;
+    justify-content: center;
+    h1{
+        background-color: $boxClor;
+        color: white;
+        padding: 1%;
+        width: auto;
+        display: inline-block;
+        margin: 5%;
+        border-radius: 0%
+    }
+    div{
+        img{
+            border-radius: 10px;
+            margin: 5%;
+        }
+    }
+    h2{
+        padding: 1%;
+        background-color: $boxClor;
+        width: auto;
+        color: white;
+        display: inline-block;
+        border-radius: 10px;
+    }
+}
+@media (max-width: $responsive){
+    .container-envios img {
+        display: flex;
+        width: 90%;
+    }
+}
+.divEnvios{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+    p{
+        padding: 5%;
+        text-align: center;
+        align-self: center;
+    }
+    img{
+        width: 40%;
+        height: auto;
+        border-radius: 10%;
+        margin: 1.5%;
+    }
+}
+@media (max-width: $responsive){
+    .divEnvios{
+        display: inline-block;
+        text-align: center;
+    }
+}
+.divEnviosTwo{
+    padding: 5%;
+    text-align: center;
+}

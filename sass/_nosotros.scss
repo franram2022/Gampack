@@ -1,0 +1,36 @@
+.mainNosotros{
+    text-align: center;
+    padding: 5%;
+    justify-content: center;
+    h2{
+        display: inline-block;
+        background-color: $boxClor;
+        color: $fontColor;
+        border-radius: 10px;
+        padding: 1%;
+        width: auto;
+    }
+    p{
+        padding: 3%;
+    }
+}
+.sectioNTitulo{
+    text-align: center;
+    h2{
+        text-align: center;
+        padding: 1%;
+        background-color: $boxClor;
+        width: auto;
+        display: inline-block;
+        border-radius: 10px;
+        color: $fontColor;
+        margin-bottom: 5%;
+    }
+}
+.sectionNosotros{
+    @media (max-width: $responsive){
+        .container-fluid{
+            box-sizing: initial;
+        }
+    }
+}
