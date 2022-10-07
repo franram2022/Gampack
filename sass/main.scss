@@ -3,6 +3,10 @@
 $boxClor: #21A705;
 $fontColor: #F5F5F5;
 $responsive: 990px;
+@mixin titles($boxColor, $fontColor) {
+    background-color: $boxClor;
+    color: $fontColor
+}
 
 @import "header";
 @import "index";

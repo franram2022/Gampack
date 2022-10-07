@@ -2,8 +2,7 @@
     text-align: center;
     justify-content: center;
     h1{
-        background-color: $boxClor;
-        color: white;
+        @include titles;
         padding: 1%;
         width: auto;
         display: inline-block;
@@ -17,10 +16,9 @@
         }
     }
     h2{
+        @include titles;
         padding: 1%;
-        background-color: $boxClor;
         width: auto;
-        color: white;
         display: inline-block;
         border-radius: 10px;
     }

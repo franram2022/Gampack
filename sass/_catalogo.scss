@@ -3,9 +3,8 @@
     padding: 2%;
     justify-content: center;
     h2{
+        @include titles;
         padding: 1%;
-        color: white;
-        background-color: $boxClor;
         width: 30%;
         display: inline-block;
         border-radius: 10px;

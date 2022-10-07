@@ -16,11 +16,10 @@
         font-size: large;
     }
     h2{
+        @include titles;
         width: 50%;
         display: inline-block;
-        background-color: $boxClor;
         border-radius: 10px;
-        color: $fontColor;
         padding: 1%;
         margin: 5% 0;
         font-size: x-large;

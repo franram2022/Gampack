@@ -63,13 +63,12 @@ button {
             align-self: center;
             padding: 5%;
             h1{
+                @include titles;
                 align-items: center;
                 justify-items: center;
-                background-color: $boxClor;
                 width: 50%;
                 padding: 3%;
                 border-radius: 10px;
-                color: $fontColor;
             }
         }
    }
@@ -94,9 +93,8 @@ button {
 .titulo2{
     text-align: center;
     h2{
-        background-color: $boxClor;
+        @include titles;
         width: auto;
-        color: $fontColor;
         display: inline-block;
         padding: 1%;
         border-radius: 10px ;

@@ -3,9 +3,8 @@
     padding: 5%;
     justify-content: center;
     h2{
+        @include titles;
         display: inline-block;
-        background-color: $boxClor;
-        color: $fontColor;
         border-radius: 10px;
         padding: 1%;
         width: auto;
@@ -17,13 +16,12 @@
 .sectioNTitulo{
     text-align: center;
     h2{
+        @include titles;
         text-align: center;
         padding: 1%;
-        background-color: $boxClor;
         width: auto;
         display: inline-block;
         border-radius: 10px;
-        color: $fontColor;
         margin-bottom: 5%;
     }
 }
