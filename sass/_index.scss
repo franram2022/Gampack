@@ -23,7 +23,7 @@
         padding: 1%;
         margin: 5% 0;
         font-size: x-large;
-        /*Insertar un border radius, pero se rompe.*/
+        border: solid green 1px 0px;
     }
 }
 .sectionOne{
@@ -36,6 +36,7 @@
         display: inline-block;
         color: $fontColor;
         padding: 1%;
+        border-radius: 10px;
     }
     div{
         text-align: center;
@@ -90,6 +91,9 @@
     }
 }
 @media (max-width: $responsive){
+    .firstMain img{
+        width: 100%;
+    }
     .sectionTwo{
         display: grid;
         grid-template-columns: 1fr;
