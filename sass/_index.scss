@@ -4,6 +4,9 @@
     padding: 3%;
     img{
         border-radius: 10px;
+        @media (max-width: $responsive){
+            width: 100%;
+        }
     }
 }
 .container{
@@ -91,9 +94,6 @@
     }
 }
 @media (max-width: $responsive){
-    .firstMain img{
-        width: 100%;
-    }
     .sectionTwo{
         display: grid;
         grid-template-columns: 1fr;
