@@ -299,60 +299,6 @@ header nav div a img {
     justify-items: center;
   }
 }
-/*boton*/
-/* From uiverse.io by @adamgiebl */
-/*button {
-    font-family: inherit;
-    font-size: 20px;
-    background: royalblue;
-    color: white;
-    padding: 0.7em 1em;
-    padding-left: 0.9em;
-    display: flex;
-    align-items: center;
-    border: none;
-    border-radius: 16px;
-    overflow: hidden;
-    transition: all 0.2s;
-   }
-
-   button span {
-    display: block;
-    margin-left: 0.3em;
-    transition: all 0.3s ease-in-out;
-   }
-
-   button svg {
-    display: block;
-    transform-origin: center center;
-    transition: transform 0.3s ease-in-out;
-   }
-
-   button:hover .svg-wrapper {
-    animation: fly-1 0.6s ease-in-out infinite alternate;
-   }
-
-   button:hover svg {
-    transform: translateX(1.2em) rotate(45deg) scale(1.1);
-   }
-
-   button:hover span {
-    transform: translateX(5em);
-   }
-
-   button:active {
-    transform: scale(0.95);
-   }
-
-   @keyframes fly-1 {
-    from {
-     transform: translateY(0.1em);
-    }
-
-    to {
-     transform: translateY(-0.1em);
-    }
-   }*/
 .mainGrid {
   display: flex;
   padding: 5%;
@@ -375,7 +321,7 @@ header nav div a img {
   border-radius: 10px;
 }
 @media (max-width: 990px) {
-  .mainGrid .mainGrid {
+  .mainGrid {
     display: inline-block;
     text-align: center;
   }
@@ -384,19 +330,32 @@ header nav div a img {
   background-color: #21A705;
   border-radius: 10px;
 }
-.mainGrid .boton {
+.mainGrid .box-contacto label {
+  color: white;
+}
+.mainGrid .box-contacto form div {
+  text-align: left;
+}
+.mainGrid .boton button {
   background-color: royalblue;
   color: white;
   border-radius: 3px;
   cursor: pointer;
-  padding: 10px 40px;
+  width: 98%;
 }
 
-.form div {
+.btnwpp {
+  background-color: #0011A8;
+  display: inline;
+  justify-content: center;
   text-align: center;
 }
-.form div input {
-  width: 98%;
+.btnwpp h2 {
+  text-align: center;
+}
+.btnwpp button {
+  background-color: #21A705;
+  border-radius: 15px;
 }
 
 .titulo2 {
