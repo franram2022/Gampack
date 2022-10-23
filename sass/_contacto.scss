@@ -1,6 +1,6 @@
 /*boton*/
 /* From uiverse.io by @adamgiebl */
-button {
+/*button {
     font-family: inherit;
     font-size: 20px;
     background: royalblue;
@@ -51,8 +51,8 @@ button {
     to {
      transform: translateY(-0.1em);
     }
-   }
-   .mainGrid{
+   }*/
+.mainGrid{
         display: flex;
         padding: 5%;
         margin: 5% 0% 10% 0%;
@@ -71,16 +71,24 @@ button {
                 border-radius: 10px;
             }
         }
-   }
-   @media(max-width: $responsive){
+
+@media(max-width: $responsive){
         .mainGrid{
         display: inline-block;
         text-align: center;
+        }
     }
-}
-.box-contacto{
-    background-color: $boxClor;
-    border-radius: 10px;
+        .box-contacto{
+        background-color: $boxClor;
+        border-radius: 10px;
+    }
+    .boton{
+        background-color: royalblue;
+        color: white;
+        border-radius: 3px;
+        cursor: pointer;
+        padding: 10px 40px;
+    }
 }
 .form{
     div{
