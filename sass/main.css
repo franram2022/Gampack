@@ -17,6 +17,11 @@ header nav div a img {
 .firstMain img {
   border-radius: 10px;
 }
+@media (max-width: 990px) {
+  .firstMain img {
+    width: 100%;
+  }
+}
 
 .container {
   text-align: center;
@@ -29,15 +34,15 @@ header nav div a img {
   font-size: large;
 }
 .container h2 {
+  background-color: #21A705;
+  color: #F5F5F5;
   width: 50%;
   display: inline-block;
-  background-color: #21A705;
   border-radius: 10px;
-  color: #F5F5F5;
   padding: 1%;
   margin: 5% 0;
   font-size: x-large;
-  /*Insertar un border radius, pero se rompe.*/
+  border: solid green 1px 0px;
 }
 
 .sectionOne {
@@ -51,6 +56,7 @@ header nav div a img {
   display: inline-block;
   color: #F5F5F5;
   padding: 1%;
+  border-radius: 10px;
 }
 .sectionOne div {
   text-align: center;
@@ -139,6 +145,9 @@ header nav div a img {
   width: 100%;
   height: auto;
 }
+.foot .logoFoot img:hover {
+  cursor: pointer;
+}
 .foot .copy {
   display: inline;
   text-align: center;
@@ -152,9 +161,9 @@ header nav div a img {
   justify-content: center;
 }
 .mainNosotros h2 {
-  display: inline-block;
   background-color: #21A705;
   color: #F5F5F5;
+  display: inline-block;
   border-radius: 10px;
   padding: 1%;
   width: auto;
@@ -167,13 +176,13 @@ header nav div a img {
   text-align: center;
 }
 .sectioNTitulo h2 {
+  background-color: #21A705;
+  color: #F5F5F5;
   text-align: center;
   padding: 1%;
-  background-color: #21A705;
   width: auto;
   display: inline-block;
   border-radius: 10px;
-  color: #F5F5F5;
   margin-bottom: 5%;
 }
 
@@ -189,22 +198,22 @@ header nav div a img {
 }
 .container-envios h1 {
   background-color: #21A705;
-  color: white;
+  color: #F5F5F5;
   padding: 1%;
   width: auto;
   display: inline-block;
   margin: 5%;
-  border-radius: 0%;
+  border-radius: 10%;
 }
 .container-envios div img {
   border-radius: 10px;
   margin: 5%;
 }
 .container-envios h2 {
-  padding: 1%;
   background-color: #21A705;
+  color: #F5F5F5;
+  padding: 1%;
   width: auto;
-  color: white;
   display: inline-block;
   border-radius: 10px;
 }
@@ -249,9 +258,9 @@ header nav div a img {
   justify-content: center;
 }
 .divCat h2 {
-  padding: 1%;
-  color: white;
   background-color: #21A705;
+  color: #F5F5F5;
+  padding: 1%;
   width: 30%;
   display: inline-block;
   border-radius: 10px;
@@ -292,67 +301,58 @@ header nav div a img {
 }
 /*boton*/
 /* From uiverse.io by @adamgiebl */
-button {
-  font-family: inherit;
-  font-size: 20px;
-  background: royalblue;
-  color: white;
-  padding: 0.7em 1em;
-  padding-left: 0.9em;
-  display: flex;
-  align-items: center;
-  border: none;
-  border-radius: 16px;
-  overflow: hidden;
-  transition: all 0.2s;
-}
+/*button {
+    font-family: inherit;
+    font-size: 20px;
+    background: royalblue;
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+   }
 
-button span {
-  display: block;
-  margin-left: 0.3em;
-  transition: all 0.3s ease-in-out;
-}
+   button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+   }
 
-button svg {
-  display: block;
-  transform-origin: center center;
-  transition: transform 0.3s ease-in-out;
-}
+   button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+   }
 
-button:hover .svg-wrapper {
-  -webkit-animation: fly-1 0.6s ease-in-out infinite alternate;
-          animation: fly-1 0.6s ease-in-out infinite alternate;
-}
+   button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+   }
 
-button:hover svg {
-  transform: translateX(1.2em) rotate(45deg) scale(1.1);
-}
+   button:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+   }
 
-button:hover span {
-  transform: translateX(5em);
-}
+   button:hover span {
+    transform: translateX(5em);
+   }
 
-button:active {
-  transform: scale(0.95);
-}
+   button:active {
+    transform: scale(0.95);
+   }
 
-@-webkit-keyframes fly-1 {
-  from {
-    transform: translateY(0.1em);
-  }
-  to {
-    transform: translateY(-0.1em);
-  }
-}
+   @keyframes fly-1 {
+    from {
+     transform: translateY(0.1em);
+    }
 
-@keyframes fly-1 {
-  from {
-    transform: translateY(0.1em);
-  }
-  to {
-    transform: translateY(-0.1em);
-  }
-}
+    to {
+     transform: translateY(-0.1em);
+    }
+   }*/
 .mainGrid {
   display: flex;
   padding: 5%;
@@ -366,24 +366,30 @@ button:active {
   padding: 5%;
 }
 .mainGrid .divGrid h1 {
+  background-color: #21A705;
+  color: #F5F5F5;
   align-items: center;
   justify-items: center;
-  background-color: #21A705;
   width: 50%;
   padding: 3%;
   border-radius: 10px;
-  color: #F5F5F5;
 }
-
 @media (max-width: 990px) {
-  .mainGrid {
+  .mainGrid .mainGrid {
     display: inline-block;
     text-align: center;
   }
 }
-.box-contacto {
+.mainGrid .box-contacto {
   background-color: #21A705;
   border-radius: 10px;
+}
+.mainGrid .boton {
+  background-color: royalblue;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 10px 40px;
 }
 
 .form div {
@@ -398,8 +404,8 @@ button:active {
 }
 .titulo2 h2 {
   background-color: #21A705;
-  width: auto;
   color: #F5F5F5;
+  width: auto;
   display: inline-block;
   padding: 1%;
   border-radius: 10px;
