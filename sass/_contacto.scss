@@ -15,12 +15,13 @@
                 width: 50%;
                 padding: 3%;
                 border-radius: 10px;
+                @media(max-width: $responsive){
+                    display: inline-block;
+                    text-align: center;
+                }
             }
         }
-        @media(max-width: $responsive){
-            display: inline-block;
-            text-align: center;
-        }
+        
         .box-contacto{
         background-color: $boxColor;
         border-radius: 10px;
@@ -49,7 +50,7 @@
     justify-content: center;
     text-align: center;
     h2{
-        text-align: center;
+        text-align: center  ;
     }
     button{
         background-color: #21A705;

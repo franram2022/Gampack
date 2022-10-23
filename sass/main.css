@@ -254,14 +254,14 @@ header nav div a img {
 
 .divCat {
   text-align: center;
-  padding: 2%;
+  padding: 5%;
   justify-content: center;
 }
 .divCat h2 {
   background-color: #21A705;
   color: #F5F5F5;
   padding: 1%;
-  width: 30%;
+  width: auto;
   display: inline-block;
   border-radius: 10px;
 }
@@ -321,7 +321,7 @@ header nav div a img {
   border-radius: 10px;
 }
 @media (max-width: 990px) {
-  .mainGrid {
+  .mainGrid .divGrid h1 {
     display: inline-block;
     text-align: center;
   }

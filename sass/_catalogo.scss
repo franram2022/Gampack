@@ -1,11 +1,11 @@
 .divCat{
     text-align: center;
-    padding: 2%;
+    padding: 5%;
     justify-content: center;
     h2{
         @include titles;
         padding: 1%;
-        width: 30%;
+        width: auto;
         display: inline-block;
         border-radius: 10px;
     }
