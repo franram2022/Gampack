@@ -155,6 +155,7 @@ header nav div a img {
   color: white;
 }
 
+/*NOSOTROS*/
 .mainNosotros {
   text-align: center;
   padding: 5%;
@@ -192,6 +193,7 @@ header nav div a img {
   }
 }
 
+/*ENVIOS*/
 .container-envios {
   text-align: center;
   justify-content: center;
@@ -252,6 +254,7 @@ header nav div a img {
   text-align: center;
 }
 
+/*CATALOGO*/
 .divCat {
   text-align: center;
   padding: 5%;
@@ -299,6 +302,7 @@ header nav div a img {
     justify-items: center;
   }
 }
+/*CONTACTO*/
 .mainGrid {
   display: flex;
   padding: 5%;
@@ -324,6 +328,7 @@ header nav div a img {
   .mainGrid .divGrid h1 {
     display: inline-block;
     text-align: center;
+    width: auto;
   }
 }
 .mainGrid .box-contacto {
