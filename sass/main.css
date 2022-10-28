@@ -357,11 +357,11 @@ header nav div a img {
 }
 
 .btnwpp {
-  padding: 5%;
   background-color: #0011A8;
   display: inline;
   justify-content: center;
   text-align: center;
+  margin: 30% 0%;
 }
 .btnwpp h2 {
   text-align: center;
