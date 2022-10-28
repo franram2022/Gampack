@@ -173,13 +173,10 @@ header nav div a img {
   padding: 3%;
 }
 
-.sectioNTitulo {
-  text-align: center;
-}
-.sectioNTitulo h2 {
+.sectionNTitulo h2 {
   background-color: #21A705;
   color: #F5F5F5;
-  text-align: center;
+  /*text-align: center;   NO LO TOMA, POR ESO LO ESCRIBI EN LINEA*/
   padding: 1%;
   width: auto;
   display: inline-block;
@@ -249,7 +246,7 @@ header nav div a img {
     text-align: center;
   }
 }
-.divEnviosTwo {
+.divEnviostwo P {
   padding: 5%;
   text-align: center;
 }
@@ -326,7 +323,7 @@ header nav div a img {
 }
 @media (max-width: 990px) {
   .mainGrid .divGrid h1 {
-    display: inline-block;
+    display: inline;
     text-align: center;
     width: auto;
   }
@@ -335,18 +332,19 @@ header nav div a img {
   background-color: #21A705;
   border-radius: 10px;
 }
-.mainGrid .box-contacto label {
-  color: white;
-}
 .mainGrid .box-contacto form div {
   text-align: left;
 }
-.mainGrid .boton button {
+.mainGrid .box-contacto form div p {
+  color: white;
+}
+.mainGrid .box-contacto .boton button {
   background-color: royalblue;
   color: white;
   border-radius: 3px;
   cursor: pointer;
   width: 98%;
+  border: none;
 }
 
 .btnwpp {
@@ -358,9 +356,17 @@ header nav div a img {
 .btnwpp h2 {
   text-align: center;
 }
-.btnwpp button {
+.btnwpp a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border: solid green;
+  padding: 5%;
+}
+.btnwpp a button {
   background-color: #21A705;
   border-radius: 15px;
+  text-align: center;
 }
 
 .titulo2 {
