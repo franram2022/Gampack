@@ -1,49 +1,51 @@
 /*CONTACTO*/
 .mainGrid{
-        display: flex;
+    display: flex;
+    padding: 5%;
+    margin: 5% 0% 10% 0%;
+    justify-content: center;
+    .divGrid{
+        display: inline-block;
+        height: 10%;
+        align-self: center;
         padding: 5%;
-        margin: 5% 0% 10% 0%;
-        justify-content: center;
-        .divGrid{
-            display: inline-block;
-            height: 10%;
-            align-self: center;
-            padding: 5%;
-            h1{
-                @include titles;
-                align-items: center;
-                justify-items: center;
-                width: 50%;
-                padding: 3%;
-                border-radius: 10px;
-                @media(max-width: $responsive){
-                    display: inline-block;
-                    text-align: center;
-                    width: auto;
-                }
+        h1{
+            @include titles;
+            align-items: center;
+            justify-items: center;
+            width: 50%;
+            padding: 3%;
+            border-radius: 10px;
+            @media(max-width: $responsive){
+                display: inline;
+                text-align: center;
+                width: auto;
             }
         }
-        .box-contacto{
+    }
+    .box-contacto{
         background-color: $boxColor;
         border-radius: 10px;
-        label{
-            color: white
-        }
         form{
             div{
                 text-align: left;
+                p{
+                    color: white;
+                }
             }
         }
-        }
         .boton{
-        & button{
-        background-color: royalblue;
-        color: white;
-        border-radius: 3px;
-        cursor: pointer;
-        width: 98%;        
+            & button{
+                background-color: royalblue;
+                color: white;
+                border-radius: 3px;
+                cursor: pointer;
+                width: 98%;
+                border: none; 
+            }
         }
     }
+    
 }
 .btnwpp{
     background-color: #0011A8;
@@ -53,9 +55,17 @@
     h2{
         text-align: center;
     }
-    button{
-        background-color: #21A705;
-        border-radius: 15px;
+    a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        border: solid green;
+        padding: 5%;
+        button{
+            background-color: #21A705;
+            border-radius: 15px;
+            text-align: center;
+        }
     }
 }
 .titulo2{

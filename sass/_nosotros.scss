@@ -14,11 +14,10 @@
         padding: 3%;
     }
 }
-.sectioNTitulo{
-    text-align: center;
+.sectionNTitulo{
     h2{
         @include titles;
-        text-align: center;
+        /*text-align: center;   NO LO TOMA, POR ESO LO ESCRIBI EN LINEA*/
         padding: 1%;
         width: auto;
         display: inline-block;
