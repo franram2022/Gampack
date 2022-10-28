@@ -306,6 +306,14 @@ header nav div a img {
   margin: 5% 0% 10% 0%;
   justify-content: center;
 }
+@media (max-width: 990px) {
+  .mainGrid {
+    display: inline;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+  }
+}
 .mainGrid .divGrid {
   display: inline-block;
   height: 10%;
@@ -320,13 +328,6 @@ header nav div a img {
   width: 50%;
   padding: 3%;
   border-radius: 10px;
-}
-@media (max-width: 990px) {
-  .mainGrid .divGrid h1 {
-    display: inline;
-    text-align: center;
-    width: auto;
-  }
 }
 .mainGrid .box-contacto {
   background-color: #21A705;
