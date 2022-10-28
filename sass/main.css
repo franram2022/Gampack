@@ -179,9 +179,10 @@ header nav div a img {
   /*text-align: center;   NO LO TOMA, POR ESO LO ESCRIBI EN LINEA*/
   padding: 1%;
   width: auto;
-  display: inline-block;
+  display: flex;
   border-radius: 10px;
   margin-bottom: 5%;
+  text-align: center;
 }
 
 @media (max-width: 990px) {
