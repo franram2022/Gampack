@@ -329,9 +329,17 @@ header nav div a img {
   padding: 3%;
   border-radius: 10px;
 }
+@media (max-width: 990px) {
+  .mainGrid .divGrid h1 {
+    width: auto;
+  }
+}
 .mainGrid .box-contacto {
   background-color: #21A705;
   border-radius: 10px;
+}
+.mainGrid .box-contacto form {
+  text-align: center;
 }
 .mainGrid .box-contacto form div {
   text-align: left;
@@ -349,6 +357,7 @@ header nav div a img {
 }
 
 .btnwpp {
+  padding: 5%;
   background-color: #0011A8;
   display: inline;
   justify-content: center;
@@ -361,7 +370,6 @@ header nav div a img {
   display: flex;
   justify-content: center;
   text-decoration: none;
-  border: solid green;
   padding: 5%;
 }
 .btnwpp a button {

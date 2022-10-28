@@ -22,12 +22,16 @@
             width: 50%;
             padding: 3%;
             border-radius: 10px;
+            @media(max-width: $responsive){
+                width: auto;
+            }
         }
     }
     .box-contacto{
         background-color: $boxColor;
         border-radius: 10px;
         form{
+            text-align: center;
             div{
                 text-align: left;
                 p{
@@ -49,6 +53,7 @@
     
 }
 .btnwpp{
+    padding: 5%;
     background-color: #0011A8;
     display: inline;
     justify-content: center;
@@ -60,7 +65,6 @@
         display: flex;
         justify-content: center;
         text-decoration: none;
-        border: solid green;
         padding: 5%;
         button{
             background-color: #21A705;
