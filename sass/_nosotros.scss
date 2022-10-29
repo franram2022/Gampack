@@ -17,13 +17,13 @@
 .sectionNTitulo{
     h2{
         @include titles;
-        /*text-align: center;   NO LO TOMA, POR ESO LO ESCRIBI EN LINEA*/
         padding: 1%;
         width: auto;
         display: flex;
         border-radius: 10px;
         margin-bottom: 5%;
         text-align: center;
+        justify-content: center;
     }
 }
 .sectionNosotros{

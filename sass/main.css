@@ -176,13 +176,13 @@ header nav div a img {
 .sectionNTitulo h2 {
   background-color: #21A705;
   color: #F5F5F5;
-  /*text-align: center;   NO LO TOMA, POR ESO LO ESCRIBI EN LINEA*/
   padding: 1%;
   width: auto;
   display: flex;
   border-radius: 10px;
   margin-bottom: 5%;
   text-align: center;
+  justify-content: center;
 }
 
 @media (max-width: 990px) {
@@ -321,6 +321,11 @@ header nav div a img {
   align-self: center;
   padding: 5%;
 }
+@media (max-width: 990px) {
+  .mainGrid .divGrid {
+    display: flex;
+  }
+}
 .mainGrid .divGrid h1 {
   background-color: #21A705;
   color: #F5F5F5;
@@ -356,6 +361,12 @@ header nav div a img {
   width: 98%;
   border: none;
 }
+@media (max-width: 990px) {
+  .mainGrid .box-contacto {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 .btnwpp {
   background-color: #0011A8;
@@ -366,6 +377,7 @@ header nav div a img {
 }
 .btnwpp h2 {
   text-align: center;
+  font-weight: normal;
 }
 .btnwpp a {
   display: flex;
@@ -377,6 +389,15 @@ header nav div a img {
   background-color: #21A705;
   border-radius: 15px;
   text-align: center;
+  width: 11%;
+  padding: 1%;
+  border: none;
+  color: white;
+}
+@media (max-width: 990px) {
+  .btnwpp a button {
+    width: auto;
+  }
 }
 
 .titulo2 {
@@ -402,6 +423,7 @@ header nav div a img {
   align-items: center;
   justify-items: center;
   gap: 20px;
+  text-align: center;
 }
 .grid div ul {
   list-style: none;
